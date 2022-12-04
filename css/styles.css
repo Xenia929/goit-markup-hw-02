@@ -3,6 +3,7 @@
     --secondary-font: 'Raleway', sans-serif;
     --primary-text-color: #2E2F42 ;
     --primary-secondary-color: #434455 ;
+    --primary-third-color: #4D5AE5 ;
 }
 
 .list {
@@ -15,6 +16,7 @@
 
 body {
     font-family: var(--primary-font);
+    color: var(--primary-text-color);
 }
 
 /* ======================== COMPONENTS ======================== */
@@ -159,3 +161,49 @@ body {
     color: #E7E9FC;
 }
 /* ======================== /FOOTER ======================== */
+
+/*======================== SECOND PAGE. FILTERS ========================  */
+.filter-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-third-color);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--primary-third-color);
+}
+
+/*======================== Examples ========================  */
+.examples-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.examples-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-secondary-color);
+}
+
+.exaples-payment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
