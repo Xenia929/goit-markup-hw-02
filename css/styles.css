@@ -1,0 +1,161 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #2E2F42 ;
+    --primary-secondary-color: #434455 ;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+/* ======================== COMPONENTS ======================== */
+.page-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.logo-first-part {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+/* ======================== /COMPONENTS ======================== */
+
+/* ======================== HEADER ======================== */
+.menu-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color: var(--primary-text-color);
+}
+
+.mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-secondary-color);
+}
+
+.phone-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-secondary-color);
+}
+/* ======================== /HEADER ======================== */
+
+/* ======================== HERO ======================== */
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* color: #FFFFFF; */
+}
+
+.modal-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    
+}
+/* ======================== /HERO ======================== */
+
+/* ======================== ABOUT ======================== */
+.plus-list-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.plus-list-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-secondary-color);
+}
+/* ======================== /ABOUT ======================== */
+
+/* ======================== WHAT DOING ======================== */
+
+/*======================== /WHAT DOING ========================  */
+
+/* ======================== OUR TEAM ======================== */
+.command-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.command-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-secondary-color);
+}
+/* ======================== /OUR TEAM ======================== */
+
+/* ======================== FOOTER ======================== */
+.footer-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+/* ======================== /FOOTER ======================== */
