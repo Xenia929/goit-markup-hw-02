@@ -51,7 +51,6 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
 }
 /* ======================== /COMPONENTS ======================== */
@@ -65,12 +64,22 @@ body {
     color: var(--primary-text-color);
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--primary-third-color);
+}
+
 .mail {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-secondary-color);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--primary-third-color);
 }
 
 .phone-number {
@@ -80,9 +89,18 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-secondary-color);
 }
+
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--primary-third-color);
+}
 /* ======================== /HEADER ======================== */
 
 /* ======================== HERO ======================== */
+.hero {
+    background-color: var(--primary-text-color);
+}
+
 .main-title {
     font-style: normal;
     font-weight: 600;
@@ -90,7 +108,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .modal-btn {
@@ -133,6 +151,14 @@ body {
 /*======================== /WHAT DOING ========================  */
 
 /* ======================== OUR TEAM ======================== */
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.command-item {
+    background-color: #FFFFFF;
+}
+
 .command-name {
     font-weight: 600;
     font-size: 20px;
@@ -153,12 +179,20 @@ body {
 /* ======================== /OUR TEAM ======================== */
 
 /* ======================== FOOTER ======================== */
+.footer {
+    background-color: var(--primary-text-color);
+}
+
 .footer-desc {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+.logo-second-part {
+    color: #F4F4FD;
 }
 /* ======================== /FOOTER ======================== */
 
@@ -173,10 +207,17 @@ body {
     letter-spacing: 0.04em;
     color: var(--primary-third-color);
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--primary-third-color);
+}
+
+.active {
     color: #FFFFFF;
     background-color: var(--primary-third-color);
 }
